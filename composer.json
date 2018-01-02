@@ -1,0 +1,22 @@
+{
+  "name": "swinde/swingredients",
+  "description": "",
+  "type": "oxideshop-module",
+  "minimum-stability": "dev",
+  "keywords": ["oxid","modules"],
+  "homepage": "https://github.com/swinde/swingredients",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "swinde/swingredients"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Swinde\\SwIngredients\\": "../../../source/modules/swinde/swingredients"
+    }
+  }
+}
