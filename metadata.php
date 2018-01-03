@@ -19,16 +19,16 @@ $aModule = array(
         'onActivate'   => 'sw_naehrwerte_set::onActivate',
         'onDeactivate' => 'sw_naehrwerte_set::onDeactivate'
     ),*/
-    'templates' => [
-        ['ingredientsfield.tpl' => 'views/flow/tpl/ingredientsfield.tpl',]
-    ],
-
     'blocks'=>   array(
         array(
             'template' => 'article_main.tpl',
             'block'=>'admin_article_main_editor',
             'file'=>'views/admin/blocks/ingredients.tpl'
-        )
-
+        ),
+        array(
+            'template' => 'page/details/inc/tabs.tpl',
+            'block'=>'details_tabs_longdescription',
+            'file'=>'views/flow/tpl/ingredientsfield.tpl'
+        ),
     ),
 );
