@@ -19,6 +19,10 @@ $aModule = array(
         'onActivate'   => 'sw_naehrwerte_set::onActivate',
         'onDeactivate' => 'sw_naehrwerte_set::onDeactivate'
     ),*/
+    'templates' => [
+        ['ingredientsfield.tpl' => 'views/flow/tpl/ingredientsfield.tpl',]
+    ],
+
     'blocks'=>   array(
         array(
             'template' => 'article_main.tpl',
